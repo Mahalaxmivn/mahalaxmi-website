@@ -16,15 +16,14 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-main);
+    background-color: #0d0d0e;
+    color: #e4e4e7;
     line-height: 1.6;
     padding: 4rem 1.5rem;
     display: flex;
     justify-content: center;
 }
 
-/* Center Content Capsule Layout */
 .portfolio-container {
     max-width: 680px;
     width: 100%;
@@ -33,12 +32,11 @@ body {
     gap: 3.5rem;
 }
 
-/* Header Stylings */
 .profile-header {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid #27272a;
     padding-bottom: 2rem;
 }
 
@@ -55,14 +53,14 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--text-muted);
+    color: #a1a1aa;
     font-weight: 600;
     margin-top: -0.25rem;
 }
 
 .title-sub {
     font-size: 0.95rem;
-    color: var(--text-muted);
+    color: #a1a1aa;
     margin-top: 0.5rem;
 }
 
@@ -73,21 +71,19 @@ body {
 }
 
 .quick-links a {
-    color: var(--text-main);
+    color: #e4e4e7;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
-    border-bottom: 1px solid var(--text-muted);
+    border-bottom: 1px solid #a1a1aa;
     padding-bottom: 1px;
-    transition: all 0.2s ease;
 }
 
 .quick-links a:hover {
-    color: var(--accent-blue);
-    border-color: var(--accent-blue);
+    color: #38bdf8;
+    border-color: #38bdf8;
 }
 
-/* Content Sections */
 .content-section {
     display: flex;
     flex-direction: column;
@@ -98,9 +94,9 @@ body {
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.1em;
-    color: var(--text-muted);
+    color: #a1a1aa;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid #27272a;
     padding-bottom: 0.5rem;
 }
 
@@ -110,7 +106,6 @@ body {
     text-align: justify;
 }
 
-/* Builds & Items */
 .build-list {
     display: flex;
     flex-direction: column;
@@ -139,30 +134,27 @@ body {
 .project-link {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.2s ease;
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
 }
 
 .project-link:hover {
-    color: var(--accent-blue);
+    color: #38bdf8;
 }
 
 .arrow {
     font-size: 0.9rem;
-    color: var(--text-muted);
-    transition: transform 0.2s ease;
+    color: #a1a1aa;
 }
 
 .project-link:hover .arrow {
-    transform: translate(2px, -2px);
-    color: var(--accent-blue);
+    color: #38bdf8;
 }
 
 .build-date {
     font-size: 0.85rem;
-    color: var(--text-muted);
+    color: #a1a1aa;
     white-space: nowrap;
 }
 
@@ -172,7 +164,6 @@ body {
     text-align: justify;
 }
 
-/* Tool Tags */
 .tag-group {
     display: flex;
     flex-wrap: wrap;
@@ -181,17 +172,17 @@ body {
 }
 
 .tech-tag {
-    background-color: var(--tag-bg);
-    border: 1px solid var(--border-color);
-    color: var(--text-muted);
+    background-color: #18181b;
+    border: 1px solid #27272a;
+    color: #a1a1aa;
     font-size: 0.75rem;
     padding: 0.2rem 0.6rem;
     border-radius: 4px;
     font-weight: 500;
 }
 
-/* Split Columns Layout */
 .row-layout {
+    display: flex;
     flex-direction: row;
     gap: 2rem;
 }
@@ -217,16 +208,15 @@ body {
 
 .nested-sub {
     font-size: 0.9rem;
-    color: var(--text-muted);
+    color: #a1a1aa;
 }
 
 .nested-date {
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: #a1a1aa;
     margin-top: 0.1rem;
 }
 
-/* Responsive Scaling */
 @media (max-width: 600px) {
     body {
         padding: 2rem 1rem;
