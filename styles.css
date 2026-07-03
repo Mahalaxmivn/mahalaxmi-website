@@ -272,7 +272,7 @@ hr {
         padding: 1.5rem;
     }
     .nav-links {
-        display: none; /* simplifies mobile navigation */
+        display: none;
     }
     .content {
         margin-left: 0;
